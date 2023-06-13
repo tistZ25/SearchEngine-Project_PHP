@@ -8,6 +8,7 @@
 <table border="0" width="60%" style="margin-left: 100px;">
 
     <?php
+        
         $query1 = "select * from add_website where website_keywords like '%$search%'";
         $data1 = mysqli_query($conn,$query1);
 
